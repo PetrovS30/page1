@@ -1,46 +1,46 @@
 .desktop {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
+
     background: #000000;
         header {
-        position: absolute;
+        display: flex;
         width: 1440px;
         height: 77px;
-        left: 0px;
-        top: 56px;
+        margin: 26px;
         .text_1 {
             position: absolute;
+            text-decoration: none;
             width: 201.41px;
             height: 21.9px;
             left: 213px;
-            top: 59px;
+            top: 41px;
             color: #363030;
         }
        .group_1 {
-            position: absolute;
+            display: flex;
+            margin-left: 1150px;
             width: 245px;
             height: 72px;
             .about_us {
-                position: absolute;
+                padding: 15px;
                 width: 50px;
                 height: 22px;
-                left: 983px;
-                top: 56px;
+                left: 0px;
+                top: 0px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 22px;
                 color: #575757;
+                text-decoration: none;
             }
             .contacts {
-                position: absolute;
+                padding: 15px;
                 width: 84px;
                 height: 22px;
-                left: 1071px;
-                top: 56px;
-
+                left: 65px;
+                top: 0px;
+                text-decoration: none;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -49,11 +49,12 @@
                 color: #575757;
             }
             .faq {
-                position: absolute;
+                padding: 15px;
                 width: 35px;
                 height: 22px;
-                left: 1193px;
-                top: 56px;
+                left: 160px;
+                text-decoration: none;
+                top: 0px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -64,37 +65,34 @@
         }
         .line_2 {
             position: absolute;
-            width: 1440px;
-            height: 0px;
-            left: 0px;
-            top: 133px;
+            width: 1680px;
+            top: 88px;
             border: 1px solid #242424;
         }
     }
     .main {
         position: absolute;
-        width: 1016px;
+        width: 1215px;
         height: 254px;
         top: 194px;
         left: 212px;
+        display: flex;
         .heart {
             position: absolute;
             width: 231px;
             height: 254px;
             left: 997px;
-            top: 104px; 
+            display: flex; 
         }
          .group33527 {
+            position: absolute;
             width: 1016px;
             height: 254px;
-            top: 194px;
-            left: 212px;
             .text_2 {
                 position: absolute;
                 width: 701px;
                 height: 38px;
-                left: 212px;
-                top: 275px;
+                top: 170px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -103,11 +101,10 @@
                 color: #575757;
             }
          }  .text_3 {
-                position: absolute;
+                
                 width: 668px;
                 height: 117px;
-                left: 213px;
-                top: 104px;
+                top: 56px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 700;
@@ -117,182 +114,51 @@
          }
     }
     .group_3{
-        
-        width: 1016px;
-        height: 222px;
-        top: 749px;
+        position: absolute;
+        width: 1440px;
+        height: 530px;
+        top: 549px;
         left: 212px;
         border-radius: 11px;
-        .line_1{
+        .your-gender{
             position: absolute;
-            width: 1016px;
-            height: 0px;
-            left: 212px;
-            top: 549px;
-            border: 1px solid #a2cc46;
+            width: 83px;
+            height: 24px;
+            left: 2px;
+            top: 2px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #CFCFCF;
         }
-        .group33522{
-            position: absolute;
-            width: 174px;
-            height: 92px;
-            top: 581px;
-            left: 360px;
-            border-radius: 11px;
-            border: 1px;
-           
-            .female_1 {
-                position: absolute;
-                width: 15px;
-                height: 22px;
-                left: 70px;
-                top: 56px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 22px;
-                color: #CFCFCF;
-            }
-            .rectangle_4 {
-                box-sizing: border-box;
-                position: absolute;
-                width: 47px;
-                height: 47px;
-                left: 53px;
-                top: 44px;
-                border: 1px solid #242424;
-                border-radius: 11px;
-            }
-            .male_1 {
-                position: absolute;
-                width: 14px;
-                height: 22px;
-                left: 18px;
-                top: 56px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 22px;
-                color: #CFCFCF;
-            } 
-            .gender {
-                position: absolute;
-                width: 174px;
-                height: 24px;
-                left: 0px;
-                top: 0px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 24px;
-                color: #CFCFCF;
-            }
-            .rectangle_3 {
-                box-sizing: border-box;
-                position: absolute;
-                width: 47px;
-                height: 47px;
-                left: 0px;
-                top: 45px;
-                border: 1px solid #242424;
-                border-radius: 11px;
-            }
+        .partner-gender {
+        position: absolute;
+        width: 83px;
+        height: 24px;
+        left: 122px;
+        top: 2px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #CFCFCF;
         }
-        .female_2 {
-                position: absolute;
-                width: 15px;
-                height: 22px;
-                left: 285px;
-                top: 638px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 22px;
-                color: #CFCFCF;
-        }
-        .rectangle_2 {
-                box-sizing: border-box;
-                position: absolute;
-                width: 47px;
-                height: 47px;
-                left: 269px;
-                top: 627px;
-                
-                border: 1px solid #242424;
-                border-radius: 11px;
-        }
-        .male_2{
-                position: absolute;
-                width: 14px;
-                height: 22px;
-                left: 228px;
-                top: 638px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 22px;
-                color: #CFCFCF;
-        }
-        .rectangle_1 {
-                box-sizing: border-box;
-                position: absolute;
-                width: 47px;
-                height: 47px;
-                left: 212px;
-                top: 627px;
-                border: 1px solid #242424;
-                border-radius: 11px;
-        }
-        .your_gender{
-                position: absolute;
-                width: 83px;
-                height: 24px;
-                left: 212px;
-                top: 582px;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 24px;
-                color: #CFCFCF;
-        }
-        .group_2{
-            width: 120px;
-            height: 48px;
-            top: 723px;
-            left: 212px;
-            border-radius: 11px;
-            
-            .button{
-                position: absolute;
-                width: 120px;
-                height: 48px;
-                left: 212px;
-                top: 723px;
-                border-radius: 11px;
-                color: #0a0a0a;
-            }
-        }
+        .span-1 {
+            display: inline-flex;
+            width: 200px;
+        } 
+        .search-button{
+        position: absolute;
+        width: 120px;
+        height: 48px;
+        left: 2px;
+        top: 90px;
+        border-radius: 11px;
+        color: #fefefe;
+        background-color:#242424
+        } 
     }
 }
-button{
-    position: relative;
-    width: 101.24px;
-    height: 30.71px;
-    left: 226px;
-    top: 477px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-   background-color:#CFCFCF;
-}
-
-
-
-
